@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index task</title>
+    <style>
+        div{
+            height: 50px;
+            width: 100%; 
+            background: blueviolet;
+            text-align: center;
+        }
+    .x li{
+        list-style: none;
+        display: inline;
+        position: relative;
+        font-size: 40px;
+        color: pink;
+        padding: 70px;
+    }
+    .x li .p li{
+        list-style: none;
+        height: 30px;
+        width: 40px;
+        color: blueviolet;
+        font-size: 80px;
+        display: block;
+    }
+    .y{
+        /* display: none; */
+        position:absolute;
+    
+    }
+    .p:hover .y{
+        color: cadetblue;
+        display: block;
+    }
+    
+    </style>
+</head>
+<body>
+    <div>
+    <ul class="x">
+        <li class="p">home</li>
+            <ul class="y">
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ul>
+        <li>menu</li>
+        <li>products</li>
+        <li>services</li>
+    </ul></div>
+</body>
+</html>

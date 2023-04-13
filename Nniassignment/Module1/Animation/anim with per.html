@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation with percentage</title>
+    <style>
+        div{
+            height: 500px;
+            width: 40%;
+            background-color: brown;
+            animation-name: animate;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            position: absolute;
+        }
+        @keyframes animate{
+            0%{background: url(../Animation/1.jfif); background-size: 100% 100%; border-radius: 30px;}
+            25%{background: url(../Animation/2.jfif); background-size: 100% 100%; border: 5px solid brown;}
+            50%{background: url(../Animation/3.jfif); background-size: 100% 100%; border-radius: 30px;}
+            75%{background: url(../Animation/4.jfif); background-size: 100% 100%; border: 5px solid brown;}
+        
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

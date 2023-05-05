@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Pesudo-class</title>
+    <style>
+        a{
+            text-decoration:none;
+        }
+        a:active{
+            color:red;
+        }
+        a:visited{
+            color:yellow;
+        }
+        a:focus{
+            color:maroon;
+        }
+        h1:first-child{
+            color:red;
+        }
+        h1:last-child{
+            color:orange;
+        }
+        h1:nth-child(odd){
+            color:rgba(255, 192, 241, 0.13);
+        }
+        h1:hover{
+            color:skyblue;
+        }
+        :lang(fr){
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.microsoft.com">Microsoft Edge</a>
+    <div>
+    <h1>HELLO</h1>
+    <h1>WELCOME</h1>
+    <h1>TO</h1>
+    <h1 lang="fr">MICROSOFT</h1>
+    <h1>EDGE</h1>
+    <h1>WEBSITE</h1></div>
+</body>
+</html>

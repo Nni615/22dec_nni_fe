@@ -1,0 +1,11 @@
+.bar{
+    height: 50px;
+    width: 50px;
+}
+ul{
+    list-style: none;
+    display: inline;
+}
+li{
+    display: block;
+}

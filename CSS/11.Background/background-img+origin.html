@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>background-img</title>
+    <style>
+            div{
+                height:200px;
+                width:350px;
+                margin:18px auto;
+                background-image:url(https://www.untumble.com/blog/wp-content/uploads/2017/04/Krishna.jpg);
+                background-size:100% 100%;
+                border:30px solid rgba(120, 240, 160, 0.5 );
+                padding:40px;
+            }
+            border-box{
+                background-origin:Border-box;
+            }
+            .padding-box{
+                background-origin:Padding-box;
+            }
+            .content-box{
+                background-origin:Content-box;
+            }
+    </style>
+</head>
+<body>
+        <div class="border-box">Border-box</div>
+        <div class="padding-box">Padding-box</div>
+        <div class="content-box">Content-box</div>
+</body>
+</html>

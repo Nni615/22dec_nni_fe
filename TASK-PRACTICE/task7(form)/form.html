@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        .main{
+            display: flex;
+        
+        }
+        fieldset{
+            width: 20%;
+            margin: 150%;
+            margin-top: 150px;
+            background-color: lightpink;
+            border-radius: 20px;
+            
+        }
+        button{
+            margin-left:90px;
+        }
+        button:hover{
+            font-size: 20px;
+            color: lightcoral;
+            font-weight: 600;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input:hover{
+            color: brown;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 15px;
+            outline-style:double;
+        }
+        legend{
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <div class="main">
+        <div class="a">
+            <form action="">
+                <fieldset>
+                <legend>Form</legend>
+                     <label for="text">Username:</label>
+                     <input type="text" name="usn" id="" placeholder="enter your username" pattern="Compulsory username are wrote in underscore + hypen + @" required> <br> <br> <br>
+                    <label for="no">Password:&nbsp;</label>
+                    <input type="no" name="num" id="" placeholder="enter your password" pattern="password must be with @ + digits +small letters" required> <br> <br> <br>
+                    <label for="mo">Mobile no:</label>
+                     <input type="no" name="no" id="" placeholder="enter an valid mobile no." pattern="range[0 to 9]" min="0" max="10" required> <br> <br> <br>
+                    <label for="enm">Email:&nbsp; &nbsp; &nbsp; &nbsp;</label>
+                    <input type="text" name="enm" id="" placeholder="enter your mail" pattern="mail should be in small letters, @ must and no too." max="20 characters required" required> <br> <br> <br>
+                    <button name="btn" value="submit">Submit</button>
+                </fieldset>
+            </form> 
+        </div>
+    <div class="b">
+        <form action="">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <label for="text">Email:</label> <br> 
+                <input type="text" name="mail" placeholder="enter your mail" required> <br> <br> <br>
+                <label for="pass">Create Password:</label>
+                <input type="text" name="pass" id="" placeholder="Create your password" required> <br> <br> <br>
+                <label for="password">Confirm Password:</label>
+                <input type="password" name="pass" id="" placeholder="Rewrite your password" required> <br> <br> <br>
+                <button name="btn" value="submit">Register</button>
+            </fieldset>
+        </form>
+    </div>
+</div></header>
+</body>
+</html>

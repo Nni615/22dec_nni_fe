@@ -1,0 +1,10 @@
+@media screen(min-width:500px){
+    .main{
+        width: 100%;
+    }
+ }
+ @media(min-width:500px){
+    body{
+        grid-template-columns: 100%;
+    }
+ }

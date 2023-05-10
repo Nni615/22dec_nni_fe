@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch-case</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <fieldset>
+            value:1 <input type="text" name="nm" id="val_1"> <br> <br>
+            value:2 <input type="text" name="nm" id="val_2"> <br> <br>
+            Answer: <input type="text" name="nm" id="ans"> <br> <br>
+            <button id="btn" value="submit"  onclick="Switch">Submit</button>
+            <select name="select" id="slect">
+                <option>--Select--</option>
+                <option>Addition</option>
+                <option>Substraction</option>
+                <option>Multiplication</option>
+                <option>Division</option>
+                <option>Modulo</option>
+                
+            </select>
+        </form></fieldset>
+    </div>
+    <script>
+        var switchCase= document.getElementById("val_1");
+        var switchCase= document.getElementById("val_2");
+
+        function Switch()
+        {
+            Switch(switchCase.value)
+            {
+                case 'plus':
+
+                    document.write('addition');
+                    break;
+                case 'subtract':
+
+                    document.write('subtract');
+                    break;
+                case 'divide':
+
+                    document.write('divide');
+                    break;
+            }
+        }
+                
+
+    
+    </script>
+</body>
+</html>

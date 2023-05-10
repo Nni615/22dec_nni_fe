@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        fieldset{
+            background-color: lightpink;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 150px;
+            font-style: italic;
+            font-size: xx-large;
+            color:darkblue;
+            border: 2px dashed black;
+            text-align: center;
+        }
+        legend{
+            font-size: 40PX;
+        }
+        .btn{
+            margin-left: -2px;
+            height: 40px;
+            font-size: 30px;
+            font-family:monospace;
+            color:fuchsia;
+        }
+        input{
+            width: 65%;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration-form</legend>
+        <form action="" method="post">
+            <label for="fnm">First name:</label>
+            <input type="text" name="nm" placeholder="Enter your first name:" minlength="3" maxlength="6" required> <br> <br> 
+            <label for="lnm">Last name:</label>
+            <input type="text" name="nm" placeholder="Enter your last name:" minlength="3" maxlength="6" required><br> <br> 
+            <label for="pass">Password: &nbsp;</label>
+            <input type="text" name="pass" placeholder="Enter your Password:" min="3" max="6" required> <br> <br>
+            <label for="nm">Mobile-No:</label>
+            <input type="tel" name="nm" placeholder="Enter your number:" pattern="[0-9]{10}+"> <br> <br>
+            <label for="enm">Email: &nbsp; &nbsp; &nbsp; &nbsp;</label>
+            <input type="email" name="enm" placeholder="Enter your mail:" required><br> <br>
+            <button class="btn" value="Submit">Submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>

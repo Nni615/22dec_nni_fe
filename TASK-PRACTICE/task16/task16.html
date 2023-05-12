@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../task16/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('i').click(function(){
+                $('ul').slideToggle(500);
+            })
+        });
+    </script>
+    <title>task</title>
+    <style>
+        div{
+            height: auto;
+            width: 100%;            
+        }
+        ul{
+            margin: auto;
+            background-color: violet;
+        }
+        li{
+            margin: auto;
+            list-style: none;
+            display: inline;
+            padding: 50px;
+            color: blue;
+            font-size: 25px;
+        }
+        span{
+            display: none;
+        }
+        
+     </style>
+</head>
+<body>
+   <div>
+    <span><i class="fa fa-bars"></i></span>
+        <ul>
+            <li class="item">Home</li>
+            <li class="item">About</li>
+            <li class="item">Services</li>
+            <li class="item">Contact</li>
+            <li class="item">FAQ</li>
+        </ul>
+    </div>
+</body>
+</html>

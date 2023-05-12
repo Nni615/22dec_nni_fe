@@ -1,0 +1,18 @@
+@media (max-width:500px)
+ {
+    ul li{color:red};   
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    div{
+        width: 100%;
+    }
+    .item{
+        width: 100%;
+        display: block;
+    }
+    span{
+        display: block !important;
+    }
+    
+}
+

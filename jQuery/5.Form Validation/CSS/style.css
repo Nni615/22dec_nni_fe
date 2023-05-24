@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: monospace;
+    margin-top: 40px;
+}
+body{
+    text-align: center;
+    background-color: lightcoral;
+}
+form{
+    margin-top: 50px; 
+    margin-left: 400px;  
+    padding: 40px;
+    border: 2px solid black;
+    width: 600px;
+ 
+}
+input{
+    width: 150px;
+    outline-color:crimson;
+    outline-style: double;
+}
+#sub{
+    width: 40%;
+}

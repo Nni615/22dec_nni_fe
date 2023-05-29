@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 570px;
+    width: 700px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    background-color: powderblue;
+}
+header h2{
+    font-size: 25px;
+    color: black;
+    padding: 20px;
+}
+.content{
+    height: 90px;
+    width: auto;
+    margin: 17px;
+    background-color: white;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+}
+.no{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 17px;
+}
+.map{
+    margin-top: 30px;
+}
+.map img{
+    height: 50px;
+    width: 50px;
+}
+.content-2{
+    height: 300px;
+    width: 50%;
+    margin: 20px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.content-2 .frm .A{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.A .part-1{
+    margin: 10px;
+}
+.A .part-2{
+    margin: 10px;
+    padding-left: 60px;
+}
+input{
+    width: 140px;
+    font-size: 15px;
+}
+.content-2 .frm .B{
+    margin: 12px;
+}
+textarea{
+    font-size: 15px;
+    height: 100px;
+    width: 95%;
+}
+#btn{
+    padding: 6px;
+    font-size: 18px;
+    background-color: red;
+    color: pink;
+    font-weight: bolder;
+}
+.locate iframe{
+    margin-left: 50px;
+}
+footer img{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin: 5px;
+}
+footer{
+    height: 50px;
+    width: 676px;
+    margin-left: 360px;
+}

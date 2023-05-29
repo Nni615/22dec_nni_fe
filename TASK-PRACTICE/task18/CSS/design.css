@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    margin-top: 100px;
+}
+body{
+    background-color: violet;
+    text-align: center;
+}
+form{
+    margin-top: 50px;
+    border: 2px solid whitesmoke;
+    width: 600px;
+    margin: 20px;
+    padding: 30px;
+    margin-left: 380px;
+}
+input{
+    width: 230px;
+    outline: 2px groove purple;
+    font-size: 15px;
+}
+#sub{
+    width: 60px;
+    background-color: aliceblue;
+}

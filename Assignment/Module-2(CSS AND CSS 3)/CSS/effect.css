@@ -1,0 +1,351 @@
+body{
+    background-color:skyblue;
+}
+h2{
+    text-align: center;
+    color:brown;
+    font-size: 50px;
+}
+b{
+    font-size: 25px;
+}
+.a{
+    height: 250px;
+    width:100%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+}
+.a:hover{
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:brown;
+    transition: 3s;
+}
+.b{
+    height: 250px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.b:hover{
+    text-transform: capitalize;
+    color: darkmagenta;
+    font-size: 25px;
+}
+.c{
+    height: 250px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    font-size:20px;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.c:hover{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:violet;
+    transition: 2s;
+}
+.d{
+    height: 300px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.d:hover{
+    background-color: palevioletred;
+    color: snow;
+    font-size: 20px;
+}
+ p{
+    text-align: center;
+    font-size: 20px;
+}
+marquee p:hover{
+    font-size: 30px;
+    color: brown;
+    transition: 2s;
+}
+.e{
+    height: 250px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.e:hover{
+    opacity: 0.7;
+}
+.f{
+    height: 420px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.f:hover{
+    background-color: hsl(8, 100%, 70%);
+    font-style: oblique;
+    font-weight: 800;
+}
+.g{
+    height: 250px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.g:hover{
+    transition: 10s;
+    transform:rotate(30deg);
+}
+.image{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image:hover{
+    background-repeat:no-repeat;
+}
+.h{
+    height: 250px;
+    width:90%;
+    border: 5px solid black;
+    margin: 6px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.h:hover{
+    border-style:ridge;
+}
+.i{
+    height: 340px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    font-style: italic;
+    margin-top: 120px;
+    margin-left:40px;
+    font-size: x-large;
+}
+.j{
+    height: 250px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    font-variant: small-caps;
+    margin-top: 120px;
+    margin-left:40px;
+    font-size: 25px;
+}
+.k{
+    height: 350px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.l{
+    height: 250px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.m{
+    height: 250px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.n{
+    height: 200px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.o{
+    height: 150px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left:40px;
+    background-color:wheat;
+    color: red;
+    font-weight:bolder;
+}
+.p{
+    height: 430px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    font-style: oblique;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.p:hover{
+    transition: 2s;
+    font-size: 18px;
+    color:darkblue;
+}
+.q{
+    height: auto;
+    width:100%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    outline-style:groove;
+}
+.r{
+    height: 300px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.s{
+    height: 250px;
+    width:90%;
+    border: 2px solid black;
+    margin: 6px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left:40px;
+}
+.X{
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Y{
+    display: flex;
+    justify-content: space-around;
+}
+.item1{
+    height: 230px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color:darkgrey;
+}
+.X:hover{
+    color: brown;
+    background-color: darkslategray;
+    transition: 3s;
+    border-style: outset;
+    border-radius: 50px;
+    outline-style: double;
+}
+.Y:hover{
+    color: brown;
+    background-color: darkslategray;
+    transition: 3s;
+    border-style: outset;
+    border-radius: 50px;
+    outline-style: double;
+}
+.item1 p{
+    font-size: 20px;
+    background-color: white;
+}
+h3{
+    font-size: 38px;
+    margin: 39px;
+}
+.item2{
+    height: 230px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color:darkgrey;
+}
+.item2 p{
+    font-size: 20px;
+    background-color: white;
+}
+.item3{
+    height: 230px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color:darkgrey;
+}
+.item3 p{
+    font-size: 20px;
+    background-color: white;
+}
+.item4{
+    height: 230px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color:darkgrey;
+}
+.item4 p{
+    font-size: 20px;
+    background-color: white;
+}
+.item5{
+    height: 230px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color:darkgrey;
+}
+.item5 p{
+    font-size: 20px;
+    background-color: white;
+}
+.item6{
+    height: 230px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color:darkgrey;
+}
+.item6 p{
+    font-size: 20px;
+    background-color: white;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-17</title>
+    <link rel="stylesheet" href="../Module-2(CSS AND CSS 3)/CSS/effect.css">
+</head>
+<body>
+    <div class="q">
+        <b>(17) What is the meaning of css Selector?</b> <br> <br>
+        ->CSS Selectors are used to select the html elements in which we want to style. <br> <br>
+        ->There are many css selectors like Adjacent selector, Group selector, Universal selector, Pseudo class, Pseudo element,Child selector, General selector.<br> <br>
+        <h2 style="text-align: left; font-size: 30px;">Adjacent selector</h2> 
+        ->It selects the element that are used first in div tag. <br>
+        ->for ex. <br>
+         <strong style="background-color: aqua; font-size: 20px;">   div + p { <br>
+                background-color: yellow; <br>
+            }</strong> <br>
+        <h2 style="text-align: left; font-size: 30px;">Group selector</h2>
+        ->In this we can select more than one/two elements, to give same style. <br>
+        ->In group selector each selector is seperated by comma. <br>
+        ->for ex. <br>
+        <strong style="background-color: aqua; font-size: 20px;">    h2, p, i{ <br>
+                text-transform: capitalize; <br>
+            }</strong> <br>
+        <h2 style="text-align: left; font-size: 30px;">Universal selector</h2>
+        ->In this we can give Universally style to the all html elements. <br>
+        ->for ex. <br>
+        <strong style="background-color: aqua; font-size: 20px;">    *{ <br>
+                margin: 0; <br>
+                padding: 0; <br>
+            }</strong> <br>
+        <h2 style="text-align: left; font-size: 30px;">Pseudo class</h2>
+        ->It is used to style an visited link, unvisited link differently. <br>
+        ->It is also used to give style an element when it is get focused. <br>
+        ->Pseudo class selectors like:- :active, :visited, :focus, :first-child, :last-child, :nth-child, even[:nth-child(2n)], odd[:nth-child(2n-1)], etc. <br>
+        ->for ex. <br>
+        <strong style="background-color: aqua; font-size: 20px;">    a:focus{ <br>
+                background-color:pink; <br>
+            }</strong> <br>
+        <h2 style="text-align: left; font-size: 30px;">Pseudo element</h2>
+        ->In this '::' is used for the selectors. <br>
+        ->It is used to give style to an first letter, first-line of an element. <br>
+        ->Also used to add content before or after the selected element. <br>
+        ->for ex. <br>
+          <strong style="background-color: aqua; font-size: 20px;"> 
+             p :: { <br>
+                content : ''; <br>
+                color : red; <br>
+                font-size : 15px; <br>
+            } </strong><br>
+        <h2 style="text-align: left; font-size: 30px;">Child selector</h2>
+        ->It selects all the child elements with a particular parent element.<br>
+        ->for ex. <br>
+        <strong style="background-color: aqua; font-size: 20px;">    div > p { <br>
+                font-size: 20px; <br>
+                font-style: italic; <br>
+            }</strong> <br>
+        <h2 style="text-align: left; font-size: 30px;">General selector</h2>
+        ->It selects all the elements that are next siblings to the div tag elements. <br>
+        ->for ex. <br>
+        <strong style="background-color:aqua; font-size: 20px;">    div ~ p { <br>
+                    background-color: violet; <br>
+                }</strong> <br>
+        ->ID Selector use id as an attribute to select an specific element. <br> <br>
+        ->CLASS Selector selects html elements with a specific class attribute. <br> <br>
+    </div>
+</body>
+</html>

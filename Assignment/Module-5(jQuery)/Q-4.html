@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-4</title>
+    <link rel="stylesheet" href="../Module-5(jQuery)/CSS/effect.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+<body>
+    <div>
+        <b class="ans-4" style="text-align: center; display: inline-block;">4)Bubbling Tickling event example</b>
+    </div>
+    <section style="margin-top: 50px;">
+        
+        <header style="padding: 8px; margin: 10px;">
+            body(great-great-grandparent)
+
+            <div style="padding: 8px; margin: 10px;">div(great grandparent) 
+                
+                <ul style="padding: 8px; margin: 10px;">ul(grandparent)
+                    <li style="list-style: none; margin: 10px;">li(direct parent) <br> <br> 
+                        <input style="margin-left: 60px; width: 50%; padding: 8px;" type="text" name="name" id="" placeholder="span"> </li>
+                    
+                </ul>
+                
+            </div>
+            
+        </header>
+        
+    </section>
+
+    <script>
+        $(document).ready(function(){
+            $("input").parentsUntil("body").css({ "border":"2px solid red","padding":"10px"});
+        });
+    </script>
+</body>
+</html>

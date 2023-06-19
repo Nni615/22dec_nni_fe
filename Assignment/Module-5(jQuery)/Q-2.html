@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="../Module-5(jQuery)/jQuery/ans-2.js"></script>
+    <link rel="stylesheet" href="../Module-5(jQuery)/CSS/effect.css">
+    <title>Q-2</title>
+    <style>
+        .em{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="ans-2">
+        <b>2)How to apply CSS using jQuery, How to Add class and Remove Class in jQuery, jQuery Animation?</b> <br> <br>
+        <p>
+            <section style="border: 3px solid black; padding: 20px; margin-top: 40px;">
+            <h2 style="font-size: 30px; text-align: center; font-style: italic;">Apply CSS USING JQUERY</h2> <br>
+            ->Using CSS() methods we can set or returns the style properties of the selected elements. <br> <br>
+            ->Syn:- CSS("propertyname","value"); <br> <br>
+            <div>
+             ex:-   <p style="width: 80%; margin-left: auto; margin-right: auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam commodi sint enim praesentium? Architecto veniam, explicabo culpa iste velit deserunt assumenda 
+                    fugit nostrum, tenetur cumque unde tempore? Reiciendis, rerum eum.</p> <br> <br>
+                
+            </div>
+        </section>
+        <section style="border: 3px solid black; padding: 20px; margin-top: 40px;">
+            <h2 style="font-size: 30px; text-align: center; font-style: italic;">Add class USING JQUERY</h2> <br>
+            ->The addClass() method will add one/more class names to the selected elements. <br><br>
+            ->This method will not remove the existing class attributes, it only adds one/more class names to the attributes. <br> <br>
+            ->Syn:-$(selector).addClass(classname, function(index,currentclass))
+            <div class="p">
+                ex:-  <br><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus reiciendis beatae explicabo deserunt porro quas 
+                    vel itaque illum maxime, dolorem tempore architecto tempora exercitationem molestiae officia facere suscipit quam.</em> <br> <br>
+                    <button id="add">Add Class</button>
+            </div>
+        </section>
+        <section style="border: 3px solid black; padding: 20px; margin-top: 40px;">
+            <h2 style="font-size: 30px; text-align: center; font-style: italic;">Remove class USING JQUERY</h2> <br>
+            ->This method will Remove one/more classes from the selected elements. <br> <br>
+            ->Syn:-$(selector).addClass(classname, function(index,currentclass))
+            <div class="c em"> <br>
+                ex:- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi, aperiam debitis possimus dolores illum delectus est ullam? Hic, quas
+                     optio laborum quod quidem cum repudiandae maiores doloribus? Fuga, doloremque. <br> <br>
+                     <button id="add-re">Remove class</button>
+            </div>
+        </section>
+        <section style="border: 3px solid black; padding: 20px; margin-top: 40px;">
+            <h2 style="font-size: 30px; text-align: center; font-style: italic;">JQUERY Animation</h2> <br>
+            ->jQuery methods include special effects to the elements like hiding, showing, adding class, remove class, use of CSS methods we can able to change the style properties, fade-in, zoom, etc operations takes place. <br> <br>
+            ->Here in this, animate() method will perform custom animation using elements style properties. <br> <br>
+            ->For using this '@keyframes' keyword is used. <br> <br>
+            ->It can used in two different ways:- 
+                <li>Animation will be performed using percentage.</li>
+                <li>Animation will be perforemed using 'to' and 'from'.</li>
+            ->It contains properties like Animation-name, animation-duration, animation-iteration-count, animation-delay, <animation-direction class="br"></animation-direction>
+        </p>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>front-page</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="CSS/design.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-white bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Carousel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+      <!-- Slider with text -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <b class="bg-secondary d-block w-100 position-relative" alt="..." style="height: 500px;">
+            <h1 class="text-white">One More for good measures</h1>
+            <h4 class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>              
+              Eaque dolorem quia reprehenderit, 
+            </h4> <br> <br> <br> <br>
+              <input class="bg-info p-2 fw-bold rounded text-white" type="button" value="Browse gallery" style="margin-left: 1100px; margin-top: 190px;"></b>
+          </div>
+          <div class="carousel-item">
+            <b  class="bg-secondary d-block w-100" alt="..." style="height: 500px;">
+            <h1 class="text-white">One More for good measures</h1>
+            <h4 class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+              Eaque dolorem quia reprehenderit, 
+              </h4> <br> <br> <br> <br>
+              <input class="bg-info p-2 fw-bold rounded text-white" type="button" value="Browse gallery" style="margin-left: 1100px; margin-top: 190px;"></b>
+          </div>
+          <div class="carousel-item">
+            <b  class="bg-secondary d-block w-100" alt="..." style="height: 500px;">
+            <h1 class="text-white">One More for good measures</h1>
+            <h4 class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+              Eaque dolorem quia reprehenderit, 
+              </h4> <br> <br> <br> <br>
+              <input class="bg-info p-2 fw-bold rounded text-white" type="button" value="Browse gallery" style="margin-left: 1100px; margin-top: 190px;"></b>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Grid -->
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-5 col-lg-4 text-center">
+              <figure>
+                <img src="Images/image-1.jpg" alt="" class="w-50 mt-5  img-thumbnail rounded border-4 ">
+                <figcaption class="text-center mt-3 fst-italic fw-bold text-secondary fs-3">Dark View</figcaption>
+                <figcaption class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat nesciunt numquam! 
+                  Cupiditate illo dignissimos repellat? Laboriosam fugiat inventore labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Facere nesciunt sequi tempora, illo aspernatur harum?</figcaption>
+                  <!-- button -->
+                  <div class="contain">
+                    <button class="border-2 btn btn-secondary text-white mt-2 ms-3  rounded-pill ">View Details&nbsp;<i class="fa fa-caret-down"></i></button>
+                  </div>
+              </figure>
+
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-4 text-center">
+              <figure>
+                <img src="Images/image-2.jpg" alt="" class="w-50 mt-5 img-thumbnail rounded border-4">
+                <figcaption class="text-center mt-3 fst-italic fw-bold text-secondary fs-3">Night View</figcaption>
+                <figcaption class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat nesciunt numquam! 
+                  Cupiditate illo dignissimos repellat? Laboriosam fugiat inventore labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Facere nesciunt sequi tempora, illo aspernatur harum?</figcaption>
+                  <!-- button -->
+                  <div class="contain">
+                    <button class="border-2 btn btn-secondary text-white mt-2 ms-3  rounded-pill ">View Details&nbsp;<i class="fa fa-caret-down"></i></button>
+                  </div>
+              </figure>
+
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-4 text-center">
+              <figure>
+                <img src="Images/image-3.jpg" alt="" class="w-50 mt-5  img-thumbnail   rounded border-4">
+                <figcaption class="text-center mt-3 fst-italic fw-bold text-secondary fs-3">Evening View</figcaption>
+                <figcaption class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat nesciunt numquam! 
+                  Cupiditate illo dignissimos repellat? Laboriosam fugiat inventore labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Facere nesciunt sequi tempora, illo aspernatur harum?</figcaption>
+                  <!-- button -->
+                  <div class="contain">
+                    <button class="border-2 btn btn-secondary text-white mt-2 ms-3  rounded-pill ">View Details&nbsp;<i class="fa fa-caret-down"></i></button>
+                  </div>
+              </figure>
+
+            </div>
+
+          </div>
+          <hr>
+      </div>
+      <!-- image with text -->
+      <section class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <b class="fs-1">First Feature Heading.It'll <br>
+              blow your mind.</b>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis reiciendis, 
+                tempora cum consectetur temporibus ullam quis sunt quos dolor repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Provident repudiandae numquam eligendi corrupti libero veniam?</p>
+            </div>       
+                 <img src="Images/beach-1.jpg" alt="" height="210px" class="w-25  float-right rounded-circle img-fluid">
+          
+        </div>
+
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <img src="Images/beach-2.jpg" alt="" height="210px" class="w-25 float-left rounded-circle img-fluid">
+        <div class="col-md-9">
+          <b class="fs-1">First Feature Heading.It'll <br>
+            blow your mind.</b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis reiciendis, 
+              tempora cum consectetur temporibus ullam quis sunt quos dolor repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Provident repudiandae numquam eligendi corrupti libero veniam?</p>
+          </div> 
+        
+      </div>
+
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <b class="fs-1">First Feature Heading.It'll <br>
+          blow your mind.</b>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis reiciendis, 
+            tempora cum consectetur temporibus ullam quis sunt quos dolor repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Provident repudiandae numquam eligendi corrupti libero veniam?</p>
+        </div>       
+             <img src="Images/beach-3.jpg" alt="" height="210px" class="w-25 float-right rounded-circle  img-fluid">
+      
+    </div>
+    <hr>
+</div>
+</section>
+</body>
+</html>

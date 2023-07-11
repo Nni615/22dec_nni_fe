@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#example1{
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 20%;
+    margin-left: 20px;
+}
+#example2{
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 20%;
+    margin-left: 20px;
+}
+#example3{
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 20%;
+    margin-left: 20px;
+}
+#div-1{
+    border: 2px solid black;
+    width: 15%;
+    margin-left: 580px;
+    text-align: center;
+}
+h1{
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    text-align: right;
+}
+h4{
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    font-size: 20px !important;
+    text-align: right;
+}
+thead tr th, tbody tr td{
+    padding: 10px;
+}

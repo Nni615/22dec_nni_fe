@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking tour</title>
+    <!-- icon -->
+    <link rel="icon" href="Images/hiking-icon.png">
+    <!-- css -->
+    <link rel="stylesheet" href="CSS/effect.css">
+    <!-- font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- glyfonic -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- nav-start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary text-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link p-5" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-5" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-5" href="#">Our Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-5">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><span><i class="fa-solid fa-magnifying-glass"></i></span></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+      <!-- nav-end -->
+      <!-- content -->
+        <section id="part-1">
+          <div class="container-fluid">
+            <img class="position-relative" src="Images/bg.png" alt="" height="100%" width="100%">
+            <p class=" position-absolute shadow-lg p-3 mb-5 bg-body-tertiary overflow-y-hidden">Its Time <br>For Hiking</p>
+            <button type="button" class="position-absolute btn btn-outline-secondary rounded-pill bg-white text-secondary fw-bolder"
+            data-bs-toggle="collapse" data-bs-target="#collapse" id="but">Read More</button>
+            <div style="min-height: 120px;">
+              <div class="collapse collapse-horizontal position-absolute" id="collapse">
+                <div class="card card-body position-absolute" style="width: 300px;" id="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Minus deleniti odit exercitationem porro distinctio magnam consequuntur ducimus nulla. Nemo, nihil!
+                </div>
+              </div>
+            </div>
+             
+          </div>
+        </section>
+        <!-- cards -->
+        <section class="container-fluid">
+          <div class="part-2">
+            <h1 class="text-center">LET'S GO</h1>
+            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, reprehenderit.</p>
+          </div>
+          <div class="container" id="slider">
+            <div class="card float-start p-3" style="width: 22rem;">
+              <img src="Images/c-1.png" alt="">
+              <div class="card-body bg-secondary text-white">
+                <div class="card-title fs-3 fw-bold">Lorem ipsum</div>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium pariatur illo velit eius iusto, a quia eum sit. 
+                  Omnis id alias doloremque</div>
+              </div>
+            </div>
+
+            <div class="card float-start p-3" style="width: 22rem;">
+              <img src="Images/c-2.png" alt="">
+              <div class="card-body bg-secondary text-white">
+                <div class="card-title fs-2 fw-bold">Lorem ipsum</div>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium pariatur illo velit eius iusto, a quia eum sit. 
+                  Omnis id alias doloremque</div>
+              </div>
+            </div>
+
+            <div class="card p-3" style="width: 22rem;">
+              <img src="Images/c-3.png" alt="">
+              <div class="card-body bg-secondary text-white">
+                <div class="card-title fs-2 fw-bold">Lorem ipsum</div>
+                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium pariatur illo velit eius iusto, a quia eum sit. 
+                  Omnis id alias doloremque</div>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-outline-secondary mt-5 fw-bolder p-2 w-25 rounded-pill bg-secondary text-white" id="btn">SHOW MORE</button>
+        </section>
+
+        <!-- horizontal card -->
+        <section class="container-fluid mt-5 overflow-hidden" id="part-3">
+         <div class="row g-0">
+          <div class="col-6">
+            <img src="Images/c-4.png" alt="" class="w-100 h-100">
+          </div>
+          <div class="col-6 bg-secondary text-center" id="side-1">
+            <h1 class="mt-5 text-white">Discounts up to <br> 50% All excursions</h1> <br> <br> 
+            <b class="fs-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Ipsam est error facilis praesentium rem illo minus repellendus eum animi ullam, 
+              velit dolorem aspernatur! Odio alias adipisci tempora? Doloremque, alias dolorum.</b> <br> <br> <br>
+              <button type="button" class="p-2 w-25" id="But">Read More</button>
+          </div>
+         </div>
+
+         <div class="row g-0">
+          <div class="col-6 bg-secondary text-center">
+            <h1 class="mt-5 text-white">Discounts up to <br> 50% All excursions</h1> <br> <br> 
+            <b class="fs-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam est error facilis praesentium rem illo minus repellendus eum animi ullam, 
+              velit dolorem aspernatur! Odio alias adipisci tempora? Doloremque, alias dolorum.</b> <br> <br> <br>
+              <button type="button" class=" p-2 w-25">Read More</button>
+          </div>
+          <div class="col-6">
+            <img src="Images/c-5.png" alt="" class="w-100 h-100">
+          </div>
+         </div>
+        </section>
+
+        <!-- info -->
+        <section class="container-fluid" id="part-4">
+          <div class="imagee position-relative">
+          </div>
+          <div class="heading">
+            <h2 class="position-absolute text-white text-center">Hiking in the <br>
+              Mountains</h2>
+          </div>
+          <div class="sm">
+            <small class="position-absolute text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, eligendi aspernatur iusto assumenda recusandae incidunt magnam molestiae eum, 
+             <br> voluptate exercitationem deleniti Saepe, ipsum!</small>
+          </div>
+        </section>
+        <!-- title -->
+        <section class="container-fluid" id="part-5">
+          <div class="im">
+          <img src="Images/hiking.png" alt="" class="w-100 position-relative">
+        </div>
+        <div class="txt ">
+          <b class="position-absolute">Explore <br> the world</b>
+        </div>
+        </section>
+        <!-- blur -->
+        <section class="container-fluid" id="part-6">
+          <div class="i">
+            <img src="Images/blur.jpg" alt="" class="w-100 position-relative">
+          </div>
+          <div class="row position-absolute justify-content-evenly text-white" id="line">
+            <div class="col-sm-3">
+              <strong class="fs-2" style="color: tomato;">Lorem Ipsum</strong> <br>
+              <b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Deleniti fugit vitae possimus totam neque vel eaque quaerat veniam exercitationem quia!</b>
+            </div>
+            <div class="col-sm-3">
+              <strong class="fs-2" style="color: tomato;">Lorem Ipsum</strong> <br>
+              <b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Natus fugit repellat excepturi minus in. Nobis id obcaecati dolor accusantium voluptatibus.</b>
+            </div>
+            <div class="col-sm-3">
+              <strong class="fs-2" style="color: tomato;">Lorem Ipsum</strong> <br>
+              <b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Assumenda quaerat, quam harum alias itaque nemo officia natus omnis dignissimos! Impedit.</b>
+              </div>
+          </div>
+          <div class="ico">
+            <i class="bi bi-quote position-absolute text-white"></i> <br> <br>
+
+            <b class="position-absolute text-white" id="tx">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor sapiente ad aut nihil repellendus, illum expedita ex, 
+              quibusdam atque impedit? Quo laudantium officiis esse libero excepturi ad ducimus aspernatur? <br> 
+            Lorem Ipsum</b>
+          </div>
+         
+        </section>
+        <section class="container-fluid" id="part-7">
+          <div class="sect-1">
+            <h1 class="text-center bg-secondary text-white">Title Here</h1>
+          </div>
+          <div class="sect-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vel sint recusandae dolore molestiae, autem libero nisi dolores cupiditate debitis inventore explicabo,
+               ex corporis necessitatibus maiores. Cupiditate enim unde aliquam?
+          </div>
+          <div class="sect-3 mt-5">
+            <input type="email" name="enm" id="enm" placeholder="Your Mail" class="rounded-pill w-50 p-2 position-relative">
+           <button type="submit" class="rounded-pill position-absolute bg-secondary text-white" value="Subscribe" id="Subscribe">Subscribe</button>
+          </div>
+        </section>
+
+        <!-- footer -->
+        <section class="container-fluid bg-secondary text-white mt-3 border border-5">
+          <div class="row p-4">
+            <div class="col-md-7">
+              <p class="H text-white fs-5">Title Here <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident illum modi quam mollitia eveniet 
+                blanditiis necessitatibus ipsum ullam consequatur incidunt ducimus ex deleniti 
+                molestias nulla error officia, voluptate tenetur accusamus! <br> <br>
+                <i class="bi bi-instagram p-1 fs-5"></i>
+                <i class="bi bi-facebook p-1 fs-5"></i>
+                <i class="bi bi-twitter p-1 fs-5"></i>
+                <i class="bi bi-whatsapp p-1 fs-5"></i>
+              </p>
+            </div>
+            <div class="col-md-2">
+              <p class="S-H text-white fs-5">
+                About <br>
+                History <br>
+                Our Team <br>
+                Brand Guidelines <br>
+                Terms and Conditions <br>
+                Privacy Policy
+              </p>
+            </div>
+            <div class="col-md-2">
+              <p class="s-h text-white fs-5">
+                Services <br>
+                How to Order <br>
+                Our Product <br>
+                Order Status <br>
+                Promo <br>
+                Payment Method
+              </p>
+            </div>
+            <div class="col-md-1">
+              <p class="last-h text-white fs-5">
+                Other <br>
+                Contact Us <br>
+                Help <br>
+                Privacy
+              </p>
+            </div>
+          </div>
+        </section>
+</body>
+</html>

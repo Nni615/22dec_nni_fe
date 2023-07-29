@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Lugrasimo&family=Pacifico&family=Playfair+Display:ital,wght@1,400;1,500&family=Satisfy&display=swap');
+
+
+#part-1 .container-fluid p {
+    left: 8%;
+    top: 50%;
+    font-size: 70px;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 10px;
+}
+button{
+    left: 8%;
+    top: 90%;
+}
+.collapse{
+    left: 8%;
+    top: 98%; 
+}
+#para{
+    border: 5px inset gray;
+}
+.part-2 h1{
+    color: orange;
+    font-size: 80px;
+}
+p{
+    color: brown;
+    font-size: larger;
+}
+#part-3 h1{
+    font-size: 55px;
+}
+.imagee {
+    height: 600px;
+    width: 100%;
+    background: url('../Images/mountain.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(255, 0,0, 0.5);
+}
+#part-4 .heading  h2{
+    top:3500px;
+    transition: 3s;
+    font-size: 90px;
+    left: 400px;
+}
+#part-4 .sm small{
+    top: 3750px;
+    left: 180px;
+}
+#part-5 .txt b{
+    top: 4300px;
+    font-size: 100px;
+    color:tomato;
+    font-family:fantasy;
+    font-style: oblique;
+    margin-left: 30px;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+@keyframes animate{
+    0%{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:saddlebrown;letter-spacing: 2px;}
+    25%{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  color:slategrey; letter-spacing: 4px;}
+    50%{font-family: sans-serif; color:teal; letter-spacing: 6px;}
+    75%{font-family: cursive;  color:sienna; letter-spacing: 8px;}
+}
+#part-6 .i img{
+    filter: blur(4px);
+}
+#part-6 #line{
+    width: 100%;
+    top: 4900px;
+}
+#part-6 strong{
+    animation:fadeIn 4s;
+}
+
+#part-6 .ico i{
+    font-size: 90px;
+    top: 5200px;
+    margin-left:630px;
+}
+#part-6 .ico #tx{
+    top: 5300px;
+    text-align: center;
+    margin: 60px;
+}
+#part-7 .sect-1 h1{
+    font-size: 80px;
+}
+#part-7 .sect-2{
+    text-align: center;
+}
+#part-7 .sect-3 input{
+    margin-left: 300px;
+    padding: 3px;
+}
+#part-7 .sect-3  #Subscribe{
+    top: 5917px;
+    margin-left: 665px;
+    width: 15%;
+    height: 6%;
+    font-size: 22px;
+}
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+@media (max-width:515px)
+{
+    #part-1 .container-fluid p{font-size: 15px; letter-spacing: 5px; font-weight: bolder;}
+    #but{top: 75%; font-size: 10px;}
+    .collapse{font-size: 10px; top: 85%;}
+    #para{padding: 4px;}
+    #slider{padding: 50px;}
+    #btn{margin-left: 34%;}
+    #part-4 .heading h2{font-size: 50px; top: 4500px; left: 100px;}
+    #part-4 .sm small{font-size: 12px; top: 4650px; left: 2px;}
+    #part-5 .txt b{top: 4900px; font-size: 38px;}
+    #part-6 #line{top: 5100px; font-size: 12px;}
+    #part-6 .ico i{font-size: 10px; top: 5350px; right: 48%;}
+    #part-6 .ico #tx{font-size: 8px;}
+    #part-7 .sect-3 #enm{margin-left: 34%; font-size: 12px;}
+    #part-7 .sect-3 #Subscribe{top: 5713px; margin-left: 295px; font-size: 12px; height: 9%;}
+}

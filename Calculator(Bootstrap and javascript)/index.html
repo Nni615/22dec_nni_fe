@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/calc.css'>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Bootstrap 5 Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Glyphonics Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src='Javascript/calc.js'></script>
+</head>
+<body> 
+    <h2 class="text-center fst-italic text-secondary fs-1 mt-3">Calculator</h2>
+    <section class="calc border border-3 border-secondary w-50 h-50 mx-auto mt-5 m-5">
+    <input type="text" class="w-100 border-0 form-control" name="result" id="result" placeholder="0">
+    <table width="100%">
+        
+        <tbody>
+            <tr>
+                <td><button type="button" value="%" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">%</button></td>
+                <td><button type="button" value="CE" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1">CE</button></td>
+                <td><button type="button" value="C" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return clr(this.value)">C</button></td>
+                <td><button type="button" value="BACK" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return back(this.value)"><i class="bi bi-backspace"></i></button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="1/x" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1">1/x</button></td>
+                <td><button type="button" value="sq" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return srq(this.value)">x<sup>2</sup></button></td>
+                <td><button type="button" value="root-2" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return root(this.value)">2√X</button></td>
+                <td><button type="button" value="/" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">/</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="8" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">8</button></td>
+                <td><button type="button" value="7" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">7</button></td>
+                <td><button type="button" value="9" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">9</button></td>
+                <td><button type="button" value="*" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">X</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="4" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">4</button></td>
+                <td><button type="button" value="5" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">5</button></td>
+                <td><button type="button" value="6" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">6</button></td>
+                <td><button type="button" value="-" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="1" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">1</button></td>
+                <td><button type="button" value="2" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">2</button></td>
+                <td><button type="button" value="3" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">3</button></td>
+                <td><button type="button" value="+" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">+</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="+/-" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return combine(this.value)">+/-</button></td>
+                <td><button type="button" value="0" id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">0</button></td>
+                <td><button type="button" value="." id="btn" class="btn btn-lg btn-outline-dark w-100 shadow mt-1" onclick="return buttons(this.value)">.</button></td>
+                <td><button type="button" class="btn btn-lg btn-outline-dark w-100 shadow mt-1 bg-primary text-white" value="=" id="btn" onclick="return finalresult(this.value)">=</button></td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</section>
+</body>
+</html>

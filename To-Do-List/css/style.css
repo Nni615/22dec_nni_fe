@@ -1,0 +1,95 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(left,orange, lightgray);
+    background: -moz-linear-gradient(left,orange, lightgray);
+    background: -ie-linear-gradient(left,orange, lightgray);
+    background: linear-gradient(to right,orange, lightgray);
+}
+#myDiv 
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+
+
+}
+#myDiv hr 
+{
+    width: 30%;
+}
+#myDiv h1 
+{
+    font-size: 45px;
+    text-align: center;
+}
+#myDiv input 
+{
+    width: 68%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    margin-left: 10%;
+}
+::placeholder
+{
+    font-size: 24px;
+    color: red;
+}
+
+#myUl
+{
+    width: 55%;
+    height: auto;
+    margin: auto;
+    margin-left: 22%;
+    font-size: 18px;
+    color: white;
+    background-color: #082f6e;
+    position: relative;
+
+}
+
+#myUl li 
+{
+    text-decoration: underline;
+    list-style-type: none;
+    padding: 8px 20px;
+    
+}
+#myUl li a 
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+.btClick 
+{
+    width: 6%;
+    height: auto;
+    background-color: red;
+    padding: 14px 12px;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+}
+.close 
+{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    color: red;
+    position: absolute;
+    font-size: 45px;
+    padding: 5px 15px 15px 16px;
+}
+
+.close:hover 
+{
+    background-color: red;
+    color: white;
+}
